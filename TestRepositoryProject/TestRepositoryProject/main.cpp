@@ -8,9 +8,11 @@ int main() {
 	int c = a + b;
 	cout << "c has the value: " << c << endl;
 
-	//2nd Code 
-	for (int i = 0; i < 3; i++) {
+	//2nd Code
+	int i = 0;
+	while(i < 3) {
 		cout << "i has the value : " << i << endl;
+		i++;
 	}
 	system("pause");
 	return 0;
